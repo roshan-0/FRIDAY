@@ -1,0 +1,14 @@
+{
+  "name": "jarvis-core",
+  "version": "1.0.0",
+  "description": "Project Jarvis - Multi-Language AI Agent System Wrapper",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server_2.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}

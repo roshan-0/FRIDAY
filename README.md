@@ -59,3 +59,4 @@ F.R.I.D.A.Y. supports fluid, natural language commands. Example phrases include:
 ## 🛡️ Architecture & Security
 
 The system employs **Concept 3 Security Features**, meaning raw string inputs from the voice processor are never passed directly to the shell. The `AutomationAgent` enforces an absolute whitelist mechanism, securely passing defined arguments via Python's `subprocess` module to eliminate command injection vectors.
+<img width="1365" height="680" alt="Screenshot " src="https://github.com/user-attachments/assets/869ad97b-4a00-4db0-83d8-c813deb95775" />
